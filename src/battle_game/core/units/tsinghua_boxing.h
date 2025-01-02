@@ -17,8 +17,6 @@ class TBoxing : public Unit {
   [[nodiscard]] const char *Author() const override;
 
   bool has_gf_{true};
-  float turret_rotation_{0.0f};
   uint32_t fire_count_down_{0};
-  uint32_t mine_count_down_{0};
 };
 }  // namespace battle_game::unit
